@@ -12,7 +12,7 @@ public class Bulldozer extends Machine {
     }
 
     public Bulldozer(String color, String name, String size, boolean works) {
-        super (color, name);
+        super(color, name);
         this.size = size;
         this.works = works;
     }

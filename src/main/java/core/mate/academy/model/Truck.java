@@ -10,6 +10,7 @@ public class Truck extends Machine {
 
     public Truck() {
     }
+    
     public Truck(String name, String color, int year, boolean works) {
         super(name, color);
         this.year = year;
