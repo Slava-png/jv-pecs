@@ -9,8 +9,8 @@ public class Bulldozer extends Machine {
     private boolean works;
 
     public Bulldozer() {
-
     }
+
     public Bulldozer(String color, String name, String size, boolean works) {
         super (color, name);
         this.size = size;

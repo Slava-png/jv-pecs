@@ -8,7 +8,8 @@ public class Excavator extends Machine {
     private double model;
     private boolean works;
 
-    public Excavator() {}
+    public Excavator() {
+    }
 
     public Excavator(String name, String color, double model, boolean works) {
         super(name, color);
